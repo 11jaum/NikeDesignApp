@@ -35,3 +35,15 @@
 /* @import "@ionic/angular/css/palettes/dark.always.css"; */
 /* @import "@ionic/angular/css/palettes/dark.class.css"; */
 @import "@ionic/angular/css/palettes/dark.system.css";
+@import url('https://fonts.googleapis.com/css2?family=Holtwood+One+SC&display=swap');
+$fundoGradiente: linear-gradient(to bottom, #11998E, #38EF7D);
+
+* {
+    --background: $fundoGradiente;
+}
+
+h1 {
+    font-family: "Holtwood One SC", serif;
+    color: #144273;
+    font-size: 38px;
+}

@@ -1,2 +1,8 @@
 // For information on how to create your own theme, please see:
 // http://ionicframework.com/docs/theming/
+
+$fundoGradiente: linear-gradient(to bottom, #11998E, #38EF7D);
+
+body {
+    background: $fundoGradiente;
+}   

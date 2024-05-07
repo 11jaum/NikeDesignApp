@@ -11,6 +11,10 @@ const routes: Routes = [
     redirectTo: 'home',
     pathMatch: 'full'
   },
+  {
+    path: 'tela',
+    loadChildren: () => import('./tela/tela.module').then( m => m.TelaPageModule)
+  },
 ];
 
 @NgModule({
